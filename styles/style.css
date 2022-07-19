@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: darkgray;
+    /* google fonts poppins */
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Courgette', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
