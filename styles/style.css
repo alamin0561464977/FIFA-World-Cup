@@ -10,3 +10,65 @@ body {
     font-family: 'Mochiy Pop P One', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
+
+/* comon-button */
+.comon-button {
+    background-color: darkred;
+    padding: 10px 20px;
+    color: #ffff;
+    font-size: 23px;
+    font-weight: 700;
+    border-radius: 20px;
+    border: 0;
+    margin-left: 60px;
+
+}
+
+.comon-button:hover {
+    background-color: rgb(109, 2, 2);
+    cursor: pointer;
+}
+
+main {
+    width: 85%;
+    height: 100vw;
+    margin: 0 auto;
+    background-color: rgb(138, 137, 137);
+}
+
+.top-benar {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-image: url(https://bolavip.com/__export/1649976608076/sites/bolavip/img/2022/04/14/khalifa_international_stadiumx_qatar_2022x_fifa_world_cup.jpeg_242310155.jpeg);
+    background-repeat: no-repeat;
+}
+
+.top-benar-info {
+    margin: 80px;
+    padding: 20px;
+    border-radius: 20px;
+    color: black;
+    background-color: rgba(88, 88, 88, 0.452);
+}
+
+.top-benar-info h1 {
+    color: darkred;
+    font-size: 32px;
+    font-weight: 700;
+    border-left: 5px solid steelblue;
+    padding: 5px;
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+
+.top-benar-thime {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.top-benar-thime img {
+    width: 300px;
+    height: 500px;
+}
