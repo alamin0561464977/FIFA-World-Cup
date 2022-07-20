@@ -207,9 +207,14 @@ hr {
     }
 
     .live {
+        width: 100%;
         display: grid;
         grid-template-columns: 1fr;
         margin-top: 20px;
+    }
+
+    .live img {
+        width: 100%;
     }
 
     .pooter-info {
