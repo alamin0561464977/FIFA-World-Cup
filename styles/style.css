@@ -31,7 +31,6 @@ body {
 
 main {
     width: 85%;
-    height: 100vw;
     margin: 0 auto;
     background-color: rgb(138, 137, 137);
 }
@@ -77,6 +76,7 @@ main {
 .meno-and-live {
     display: grid;
     grid-template-columns: 300px auto;
+    padding-top: 30px;
 }
 
 .meno {
@@ -85,7 +85,7 @@ main {
 }
 
 .meno-a {
-    background-color: cornflowerblue;
+    background-color: rgb(37, 37, 38);
     height: 300px;
     width: 90%;
     margin: 20px auto auto;
@@ -97,10 +97,10 @@ main {
 
 .meno-a a {
     text-decoration: none;
-    color: darkslategrey;
+    background-color: #ffff;
+    color: black;
     font-size: 20px;
     font-weight: 300px;
-    border: 3px solid #6d0202;
     padding: 10px 30px;
     border-radius: 20px;
     width: 50%;
@@ -109,11 +109,77 @@ main {
 }
 
 .live {
-    background-color: brown;
     width: 100%;
-    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.live div {
+    background-color: darkslategrey;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 1s0px rgb(67, 68, 68);
+}
+
+.live .players {
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.live div h3 {
+    color: #ffff;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
 }
 
 #blog {
     color: #ffff;
+    background-color: #6d0202;
+}
+
+.clock {
+    display: flex;
+    gap: 20px;
+    color: black;
+    margin-bottom: 0;
+}
+
+footer {
+    background-color: black;
+    color: #ffff;
+    text-align: center;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+footer a {
+    text-decoration: none;
+    color: wheat;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 5px 0;
+}
+
+h2 {
+    color: darkred;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+
+hr {
+    border: 3px solid wheat;
+    margin: 0 50px 50px;
+    border-radius: 30px;
+}
+
+.pooter-info {
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
 }
